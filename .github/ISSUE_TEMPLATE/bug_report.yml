@@ -27,7 +27,7 @@ body:
     attributes:
       label: Screenshots or your model file
       description: >-
-        Drag a screenshot or your .wcd file in here (zip the .wcd first, since GitHub only accepts
+        Drag a screenshot or your .benchplan file in here (zip it first, since GitHub only accepts
         some file types). Only attach a model you're happy to share publicly.
   - type: dropdown
     id: browser
