@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Not on GitHub? Email us
+    url: mailto:feedback@benchplan.dev
+    about: Send a bug report or idea to feedback@benchplan.dev instead.
+  - name: Open Benchplan
+    url: https://benchplan.dev
+    about: The app itself — free, in your browser.

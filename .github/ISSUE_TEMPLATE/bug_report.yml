@@ -1,0 +1,43 @@
+name: Bug report
+description: Something in Benchplan doesn't work the way it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report this! The more detail, the faster it gets fixed.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: I pulled the top face of a board up 20 mm and the side faces disappeared.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen again
+      description: If you can, list the steps from an empty model or one of the examples.
+      placeholder: |
+        1. Open the Plywood bookshelf example
+        2. Select the Push/Pull tool
+        3. ...
+  - type: textarea
+    id: files
+    attributes:
+      label: Screenshots or your model file
+      description: >-
+        Drag a screenshot or your .wcd file in here (zip the .wcd first, since GitHub only accepts
+        some file types). Only attach a model you're happy to share publicly.
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options: [Chrome, Edge, Firefox, Safari, Other]
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Computer
+      options: [Windows, Mac, Linux, iPad or tablet, Other]
